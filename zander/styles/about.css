@@ -1,0 +1,61 @@
+.carousel__item{
+    position: relative;
+    overflow: hidden;
+    background-color: #009499;
+    border-radius: 10px;
+    height: 350px;
+    width: 800px;
+    margin:auto;
+    box-shadow: -10px 10px 20px #3a3a3a;
+}
+
+.carousel__item a{
+    text-decoration: none;
+    color: white;
+}
+
+.carousel button{
+    background-color: #3a3a3a;
+    border: none;
+    height: 40px;
+    width: 40px;
+}
+
+.prev{
+    position: absolute;
+    top: 74%;
+    left: 27%;
+}
+
+.next{
+    position: absolute;
+    top: 74%;
+    right: 27%;
+}
+
+.card__name{
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 35px;
+}
+
+.card__role{
+    padding-left: 20px;
+    padding-bottom: 20px;
+    font-size: 25px;
+    color: #737373;
+}
+
+.card__description{
+    padding: 20px;
+}
+
+.card__socials{
+    padding: 20px;
+}
+
+.card__socials img{
+    padding: 20px;
+    width: 40px;
+    height: 40px;
+}
